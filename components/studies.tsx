@@ -9,7 +9,7 @@ export function Studies() {
           {studies.map((study, index) => (
             <li
               key={study}
-              className="rounded-xl border border-border bg-white p-8"
+              className="border border-border bg-white p-8"
             >
               <span className="font-serif text-lg italic text-sage" aria-hidden="true">
                 {String(index + 1).padStart(2, '0')}

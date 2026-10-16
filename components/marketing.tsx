@@ -36,7 +36,7 @@ export function Marketing() {
           </div>
           <dl className="flex flex-col gap-4">
             {stats.map((stat) => (
-              <div key={stat.value} className="rounded-xl bg-sage/30 p-5">
+              <div key={stat.value} className="bg-sage/30 p-5">
                 <dt className="sr-only">{stat.label}</dt>
                 <dd>
                   <span className="block font-serif text-3xl font-medium text-sage-dark">
@@ -57,14 +57,14 @@ export function Marketing() {
                 width={640}
                 height={800}
                 sizes="(min-width: 1024px) 200px, 45vw"
-                className="h-auto w-full rounded-lg border border-border"
+                className="h-auto w-full border border-border"
               />
             </li>
           ))}
         </ul>
       </article>
 
-      <article className="mt-16 rounded-xl bg-beige p-8 md:p-10">
+      <article className="mt-16 bg-beige p-8 md:p-10">
         <h3 className="font-serif text-2xl font-medium">Gathrd | Marketing Agency</h3>
         <p className="text-sage-dark">Public Relations Intern</p>
         <p className="mt-4 max-w-2xl leading-relaxed">

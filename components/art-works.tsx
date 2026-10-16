@@ -39,7 +39,7 @@ function Gallery({ items }: { items: Artwork[] }) {
               width={art.width}
               height={art.height}
               sizes="(min-width: 1024px) 320px, (min-width: 640px) 50vw, 100vw"
-              className="h-auto w-full rounded-lg"
+              className="h-auto w-full"
             />
             <figcaption className="mt-3 flex items-baseline justify-between gap-2">
               <span className="font-serif text-lg font-medium">{art.title}</span>

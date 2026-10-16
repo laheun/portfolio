@@ -7,7 +7,7 @@ export function Contact() {
       <div className="mt-10 grid gap-4 md:grid-cols-2">
         <a
           href="mailto:haeun.lee@vanderbilt.edu"
-          className="group flex items-center justify-between rounded-xl bg-beige p-6 transition-colors hover:bg-sage/25"
+          className="group flex items-center justify-between bg-beige p-6 transition-colors hover:bg-sage/25"
         >
           <span className="flex items-center gap-3">
             <Mail className="size-5 text-sage-dark" aria-hidden="true" />
@@ -24,7 +24,7 @@ export function Contact() {
           href="https://linkedin.com/in/haeunele"
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex items-center justify-between rounded-xl bg-beige p-6 transition-colors hover:bg-sage/25"
+          className="group flex items-center justify-between bg-beige p-6 transition-colors hover:bg-sage/25"
         >
           <span>
             <span className="block text-xs uppercase tracking-widest text-muted-foreground">

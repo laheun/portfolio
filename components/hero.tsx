@@ -18,19 +18,19 @@ export function Hero() {
           <div className="mt-10 flex flex-wrap gap-4">
             <a
               href="#work"
-              className="rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
+              className="bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-opacity hover:opacity-90"
             >
               View my work
             </a>
             <a
               href="#contact"
-              className="rounded-full border border-sage-dark px-6 py-3 text-sm font-medium text-sage-dark transition-colors hover:bg-white"
+              className="border border-sage-dark px-6 py-3 text-sm font-medium text-sage-dark transition-colors hover:bg-white"
             >
               Get in touch
             </a>
           </div>
         </div>
-        <div className="relative aspect-[4/5] w-full overflow-hidden rounded-2xl bg-sage/30 md:w-80">
+        <div className="relative aspect-[4/5] w-full overflow-hidden bg-sage/30 md:w-80">
           <Image
             src="/images/about/portrait.jpg"
             alt="Portrait of Haeun (Grace) Lee"

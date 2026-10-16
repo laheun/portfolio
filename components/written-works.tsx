@@ -9,7 +9,7 @@ export function WrittenWorks() {
     <section id="writing" className="bg-beige">
       <div className="mx-auto max-w-5xl px-6 py-24">
         <h2 className="font-serif text-4xl font-medium text-sage-dark">Written works</h2>
-        <article className="mt-10 rounded-xl bg-white p-8 md:p-10">
+        <article className="mt-10 bg-white p-8 md:p-10">
           <p className="text-xs font-medium uppercase tracking-[0.2em] text-sage-dark">
             Academic Research · 2025 Undergraduate Writing Symposium
           </p>
@@ -23,7 +23,7 @@ export function WrittenWorks() {
           <ul className="mt-8 flex flex-col gap-4">
             {highlights.map((item) => (
               <li key={item} className="flex gap-3 leading-relaxed">
-                <span className="mt-2.5 size-1.5 shrink-0 rounded-full bg-sage" aria-hidden="true" />
+                <span className="mt-2.5 size-1.5 shrink-0 bg-sage" aria-hidden="true" />
                 {item}
               </li>
             ))}
