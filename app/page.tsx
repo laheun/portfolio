@@ -2,6 +2,10 @@ import { SiteHeader } from '@/components/site-header'
 import { Hero } from '@/components/hero'
 import { About } from '@/components/about'
 import { Studies } from '@/components/studies'
+import { Resume } from '@/components/resume'
+import { ArtWorks } from '@/components/art-works'
+import { WrittenWorks } from '@/components/written-works'
+import { Marketing } from '@/components/marketing'
 import { Contact } from '@/components/contact'
 
 export default function Page() {
@@ -11,6 +15,10 @@ export default function Page() {
       <main>
         <Hero />
         <About />
+        <Resume />
+        <ArtWorks />
+        <WrittenWorks />
+        <Marketing />
         <Studies />
         <Contact />
       </main>
