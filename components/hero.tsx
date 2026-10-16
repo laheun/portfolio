@@ -37,7 +37,7 @@ export function Hero() {
             fill
             priority
             sizes="(min-width: 768px) 320px, 100vw"
-            className="object-cover object-right"
+            className="scale-[1.15] object-cover object-[46%_center]"
           />
         </div>
       </div>
