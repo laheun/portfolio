@@ -190,8 +190,7 @@ export function Resume() {
               <p className="mt-4 text-sage-dark">B.S. in Cognitive Studies</p>
               <p className="text-sage-dark">Minor in Legal Studies, Innovation Design Strategy</p>
               <ul className="mt-6 flex flex-wrap gap-2">
-                <li className="bg-beige px-3 py-1 text-sm">GPA: 3.88/4.00</li>
-                <li className="bg-beige px-3 py-1 text-sm">{"Dean's List (Spring '24 – Present)"}</li>
+                    <li className="bg-beige px-3 py-1 text-sm">{"Dean's List (Spring '24 – Present)"}</li>
                 <li className="bg-beige px-3 py-1 text-sm">QuestBridge National Scholar</li>
               </ul>
             </article>

@@ -32,7 +32,7 @@ export function Hero() {
         </div>
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-sage/30 md:w-80">
           <Image
-            src="/images/about/portrait.jpg"
+            src="/images/about/headshot.png"
             alt="Portrait of Haeun (Grace) Lee"
             fill
             priority
