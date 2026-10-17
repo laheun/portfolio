@@ -8,6 +8,20 @@ const posters = [
   '/images/marketing/prelaw-4.png',
   '/images/marketing/prelaw-5.png',
   '/images/marketing/prelaw-6.png',
+  '/images/marketing/prelaw-vandy-verdicts.png',
+  '/images/marketing/prelaw-headshot-event.png',
+]
+
+const fashionPosts = [
+  { src: '/images/marketing/fashion/emi-cho.png', alt: 'Speaker event poster for Émi Cho of Collectif N°9' },
+  { src: '/images/marketing/fashion/tish-weinstock.png', alt: 'Speaker event poster for Tish Weinstock of British Vogue' },
+  { src: '/images/marketing/fashion/derek-blasberg.png', alt: 'Speaker event poster for Derek Blasberg' },
+  { src: '/images/marketing/fashion/gbm.png', alt: 'General body meeting poster' },
+  { src: '/images/marketing/fashion/join-vfc.png', alt: 'Illustrated Vanderbilt Fashion Club membership QR code poster' },
+  { src: '/images/marketing/fashion/finals-week.png', alt: "Finals Week Pick-Me-Up poster with gifts from Bloomingdale's" },
+  { src: '/images/marketing/fashion/recap-fall-2025.png', alt: 'Fall 2025 semester recap post' },
+  { src: '/images/marketing/fashion/recap-spring-2026.png', alt: 'Spring 2026 semester recap post' },
+  { src: '/images/marketing/fashion/hustler-feature.png', alt: 'The Vanderbilt Hustler article on the Fashion Club spring speaker series' },
 ]
 
 const stats = [
@@ -58,6 +72,40 @@ export function Marketing() {
                 height={800}
                 sizes="(min-width: 1024px) 200px, 45vw"
                 className="h-auto w-full border border-border"
+              />
+            </li>
+          ))}
+        </ul>
+      </article>
+
+      <article className="mt-16 grid gap-10 border-t border-border pt-16 md:grid-cols-[1fr_2fr]">
+        <div className="flex flex-col gap-4">
+          <div>
+            <h3 className="font-serif text-2xl font-medium">Vanderbilt Fashion Club</h3>
+            <p className="text-sage-dark">Head Committee of Media and Marketing</p>
+            <p className="mt-2 text-muted-foreground">Event posters and Instagram content</p>
+          </div>
+          <a
+            href="https://www.instagram.com/vanderbiltfashionclub/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 font-medium text-sage-dark underline-offset-4 hover:underline"
+          >
+            @vanderbiltfashionclub
+            <ArrowUpRight className="size-4" aria-hidden="true" />
+            <span className="sr-only">(opens in a new tab)</span>
+          </a>
+        </div>
+        <ul className="grid grid-cols-2 gap-4 lg:grid-cols-3">
+          {fashionPosts.map((post) => (
+            <li key={post.src}>
+              <Image
+                src={post.src}
+                alt={post.alt}
+                width={336}
+                height={448}
+                sizes="(min-width: 1024px) 200px, 45vw"
+                className="aspect-[3/4] h-auto w-full border border-border object-cover"
               />
             </li>
           ))}
